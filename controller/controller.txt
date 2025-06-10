@@ -1,1 +1,51 @@
+// comando // cria comentarios.
+// comentarios servem para deixar os codigos organizados
 
+// javascript é case sensitive (diferencia letras maiusculas de letras minuasculas)
+
+// variaveis servem para armazenar informacoes.
+// elas são organizadas em string, int, boolean, etc.
+// comando que cria variaveis é o "let", porém é possivel tambem usar o "const".
+// para mostrar alguma coisa na tela, é usado o codigo "console.log();"
+
+// variaveis do tipo string
+let idade ="dezoito anos";
+let complemento = " de idade"
+console.log(idade+complemento);
+
+// variaveis do tipo inteiro
+let altura = 169;
+altura /= 10;
+
+console.log(altura);
+
+// variaveis do tipo booleano
+let numero1 = 10;
+let numero2 = 9;
+let numero3 = 10;
+
+console.log(numero1===numero3);
+
+// trabalhando com condicionais
+if(numero1==10){
+    console.log("o numero1 vale 10");
+}else{
+    console.log("o numero1 é diferente de 10");
+}
+
+// Questao1 -> Sabe-se que as pessoas abaixo de 16 anos nao podem votar, as pessoas com idade entre 16 e 18 possuem voto facultativo, as pessoas com idade entre 18 e 70 anos tambem possuem voto facultativo. faca um codigo que diga atraves da idade, a condicao de voto dela.
+
+// codigo e ="&&"
+// codigo ou ="||"
+
+let idadex;
+
+if(idadex < 16){
+    console.log("eleitor não pode votar");
+}else if(idadex >= 16 && idadex <= 70){
+    console.log("eleitor é obrigado a votar");
+}else if(idadex >= 16 && idadex < 18 && idadex >70){
+    console.log("eleitor possui voto facultativio");
+}
+
+// questao2 -> ganhar na mega sena é o sonho de todo brasileiro. diariamente milhares de pessoas apostam sonhando com a chance de mudar de vida. Faça um codigo que verifique os numeros apostados e os numeros sorteados e diga se o apostador ganhou na quadra, quina ou sena.
